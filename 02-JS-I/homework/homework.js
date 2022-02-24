@@ -64,8 +64,10 @@ multiplica(8, 8); // 64
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  var divide = x / y;
+  return divide;
 }
+divide(56, 8); // 7
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
@@ -82,6 +84,13 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  var str1 = "Marino".length;
+  var str2 = "Samaná".lenght;
+  if (str1 == str2){
+    console.log('Son iguales');
+  }else{
+    console.log('No son iguales');
+  }
   
 }
 
@@ -89,7 +98,12 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var num;
+  if (num < 50){
+    console.log('Es menor que 90');
+  }else{
+    console.log('Es mayor que 90'):
+  }
 }
 
 function mayorQueCincuenta(num) {
