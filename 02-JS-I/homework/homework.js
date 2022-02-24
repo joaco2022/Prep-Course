@@ -34,6 +34,7 @@ function devolverString(str) {
   var cadena1 = 'str';
   return cadena1; 
 }
+devolverString(); // 'str'
 
 function suma(x, y) {
   // "x" e "y" son números
@@ -42,6 +43,7 @@ function suma(x, y) {
   var suma = x + y
   return suma;
 }
+suma(5, 16); // 21
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
@@ -49,13 +51,15 @@ function resta(x, y) {
   var resta = x - y;
   return resta;
 }
+resta(44, 31); // 13
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   var multiplica = x * y;
-  return muliplica  
+  return multiplica;  
 }
+multiplica(8, 8); // 64
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
