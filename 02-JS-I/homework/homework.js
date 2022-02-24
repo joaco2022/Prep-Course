@@ -19,6 +19,7 @@ false
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === null;
+false
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -30,27 +31,30 @@ const nuevoModulo = 21 % 5 === null;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  console.log('str'); 
+  var cadena1 = 'str';
+  return cadena1; 
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  console.log(8 + 9);
-  
+  var suma = x + y
+  return suma;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  console.log(55 - 44)
+  var resta = x - y;
+  return resta;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  var multiplica = x * y;
+  return muliplica  
 }
 
 function divide(x, y) {
